@@ -35,15 +35,8 @@ function draw() {
   background(0,0,0);  
 
   //calling isTouching
-  if(isTouching(ob1,movingRect)){
-    movingRect.shapeColor="yellow";
-    ob1.shapeColor="yellow";
-  }
-else{
-  movingRect.shapeColor="green";
-  ob1.shapeColor="green";
- }
-
+  bounceOff();
+  
   movingRect.x=mouseX;
   movingRect.y=mouseY;
   
