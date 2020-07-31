@@ -10,23 +10,6 @@ function setup() {
   movingRect.shapeColor = "green";
   movingRect.debug = true;
 
-  ob1=createSprite(200,200,50,50);
-  ob1.shapeColor="blue";
-  ob1.debug=true;
-
-  ob2=createSprite(300,200,50,50);
-  ob2.shapeColor="blue";
-  ob2.debug=true;
-
-  ob3=createSprite(400,200,50,50);
-  ob3.shapeColor="blue";
-  ob3.debug=true;
-
-  ob4=createSprite(500,200,50,50);
-  ob4.shapeColor="blue";
-  ob4.debug=true;
-
-
  // movingRect.velocityY = -5;
   //fixedRect.velocityY = +5;
 }
